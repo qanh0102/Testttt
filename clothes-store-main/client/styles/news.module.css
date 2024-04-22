@@ -1,0 +1,47 @@
+/* styles/news.module.css */
+
+/* Style for main news container */
+.mainNews {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* Style for main news item */
+.mainNews .newsItem {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+/* Style for secondary news container */
+.secondaryNews {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid layout */
+  gap: 20px;
+}
+
+/* Style for secondary news item */
+.secondaryNews .newsItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.secondaryNews .newsItem img {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.secondaryNews .newsItem div {
+  flex-grow: 1;
+}
+
+.secondaryNews .newsItem h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.secondaryNews .newsItem p {
+  margin: 0;
+}
